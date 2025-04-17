@@ -1,0 +1,52 @@
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* semi-transparent black */
+    z-index: 1;
+}
+
+.bg-div{
+display: flex;
+flex-direction: column;
+width: 527px;
+height: 490px;
+padding: 100px 0 0 93px;  /* top, right, bottom, left */
+
+}
+
+.title{
+    color: white;
+    font-size: 22px;
+    font-family: Playfair Display;
+    font-weight: 500;
+
+}
+
+.sub-title{
+    color: white;
+    font-size: 220px;
+    font-family: "Clicker Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.description{
+    color: white;
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+
+/* .button{
+    display: flex;
+position: relative;
+top: 625px;
+left: 93px; 
+} */
+
