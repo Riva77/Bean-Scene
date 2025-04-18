@@ -1,15 +1,12 @@
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
+.hero{
+    height: 790px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4); /* semi-transparent black */
-    z-index: 1;
+    position: relative;
+    overflow: hidden; 
 }
 
-.bg-div{
+.hero-div{
 display: flex;
 flex-direction: column;
 width: 527px;
@@ -18,7 +15,7 @@ padding: 100px 0 0 93px;  /* top, right, bottom, left */
 
 }
 
-.title{
+.hero-title{
     color: white;
     font-size: 22px;
     font-family: Playfair Display;
@@ -26,7 +23,7 @@ padding: 100px 0 0 93px;  /* top, right, bottom, left */
 
 }
 
-.sub-title{
+.hero-subtitle{
     color: white;
     font-size: 220px;
     font-family: "Clicker Script", cursive;
@@ -34,7 +31,7 @@ padding: 100px 0 0 93px;  /* top, right, bottom, left */
     font-style: normal;
 }
 
-.description{
+.hero-description{
     color: white;
     font-family: Playfair Display;
     font-weight: 400;
@@ -43,10 +40,170 @@ padding: 100px 0 0 93px;  /* top, right, bottom, left */
 }
 
 
-/* .button{
-    display: flex;
-position: relative;
-top: 625px;
-left: 93px; 
-} */
+.discover{
+background-color: #FFFEFC;
+margin-top: 150px;
+margin-left: 93px;
 
+
+}
+
+.discover-div{
+display: flex;
+flex-direction: row;
+
+
+}
+
+.left-div{
+width: 585px;
+height: 348px;
+display: flex;
+flex-direction: column;
+gap: 32px;
+
+}
+
+
+.discover-title{
+    font-size: 54px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    color: #603809;
+
+}
+
+.discover-description{
+    font-size: 20px;
+    font-family: Playfair Display;
+    font-weight: 400;
+    color: #707070;
+}
+
+.right-div{
+    background-image: url(../../assets/coffee-beans.png);
+    width: 500px;
+    height: 484px;
+    margin-top: -70px;
+    margin-left: 270px;
+
+}
+
+.splash{
+    background-image: url(../../assets/splashLeft.png);
+    width: 498px;
+    height: 272px;
+    margin-left: -97px;
+    background-repeat: no-repeat;
+    margin-top: -32px;
+    position: relative;
+    top: -105px;
+
+}
+
+.flavours{
+   
+    /* margin-left: 93px; */
+    /* margin-top: -0px; */
+
+}
+
+.flavours-div{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -120px;
+    gap: 20px;
+}
+
+.flavours-title{  
+     font-size: 54px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    color: #603809;}
+
+.flavours-subtitle{
+    font-size: 20px;
+    font-family: Playfair Display;
+    font-weight: 400;
+    color: #707070;
+}
+
+.flavours-types{
+  margin-top: 20px;
+  display: flex;
+  gap: 70px;
+}
+
+.splash-right{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../../assets/splashLeft.png);
+    transform: rotate(-180deg); 
+    width: 498px;
+    height: 272px;
+    background-repeat: no-repeat;
+    margin-top: 12px;
+    position: relative;
+
+}
+
+.whyus{
+    
+}
+
+.whyus-div{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+    gap: 20px;
+}
+
+.whyus-title{  
+     font-size: 54px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    color: #603809;}
+
+.whyus-subtitle{
+    font-size: 20px;
+    font-family: Playfair Display;
+    font-weight: 400;
+    color: #707070;
+}
+
+.whyus-speciality{
+  margin-top: 20px;
+  display: flex;
+  gap: 70px;
+}
+
+.whyus-quote{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Playfair Display;
+    font-weight: 400;
+    color: #707070;
+}
+
+.whyus-statement{  
+    font-size: 30px;
+   font-family: Playfair Display;
+   font-weight: 700;
+   color: #603809;}
+
+.join-us{
+    margin-top: -15px;
+}
+
+.heroTwo{
+    height: 700px;
+    background-image: linear-gradient(rgba(96, 56, 9, 0.8), 
+    rgba(96, 56, 9, 0.7)),url(../../assets/heroTwo.png);
+    background-size: cover;
+    margin-top: 100px;
+    
+}

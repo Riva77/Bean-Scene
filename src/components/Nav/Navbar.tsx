@@ -15,7 +15,12 @@ const Navbar = () => {
     <NavButton text='Contact Us'/>
     </div>
 
-    <div className="auth-buttons"><NavButton text='Sign In'/> <PrimaryButton  size="small" text='Sign Up'/></div>
+    <div className="auth-buttons">
+      <NavButton text='Sign In'/> 
+     <span className="sign-up">
+               <PrimaryButton  size="small" text='Sign Up'/>
+               </span>
+      </div>
     </div>
   )
 }
