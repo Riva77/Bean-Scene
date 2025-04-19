@@ -23,7 +23,7 @@
 
 .auth-buttons{
     display: flex;
-    gap: 19px; /* spacing between Sign In and Sign Up buttons */
+    gap: 19px;
     align-items: center;
     
 }

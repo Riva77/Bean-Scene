@@ -1,6 +1,5 @@
 
 import PrimaryButton from '../../components/buttons/PrimaryButton';
-
 import Navbar from '../../components/Nav/Navbar';
 import './LandingPage.css';
 import cappuccino from '../../assets/cappuccino.png';
@@ -11,8 +10,11 @@ import beansIcon from '../../assets/beansIcon.png'
 import badgeIcon from '../../assets/badgeIcon.png'
 import cupIcon from '../../assets/cupIcon.png'
 import priceIcon from '../../assets/priceIcon.png'
+import Riva from '../../assets/Riva.png'
+
 import FlavourCard from '../../components/cards/flavoursCard/FlavourCard';
 import SpecialityCard from '../../components/cards/specialityCard/SpecialityCard';
+import Feedback from '../../components/cards/feedbackCard/feedback';
 
 const LandingPage = () => {
   return (
@@ -120,12 +122,66 @@ const LandingPage = () => {
 
 </section>
 <section className='heroTwo'> 
-  <div className='heroTwo-rDiv'>
-    
+
+  <div className='heroTwo-lDiv'>
+  <span className='heroTwo-title'>Get a chance to have an Amazing morning</span>
+  <span className='heroTwo-subtitle'>We are giving you are one time opportunity to experience a better life with coffee.</span>
+  <span className='heroTwo-Button'><PrimaryButton text="Order Now"/></span>
   </div>
-  <div className='heroTwo-lDiv'></div>
+  <div className='heroTwo-rDiv'>
+  <div className='beans-img'></div>
+  <div className='cup-img'></div>
+ 
+  </div>
+
 </section>
 
+<section className='feedback'>
+<div className='feedback-div'>
+    <span className='feedback-title'>Our coffee perfection feedback </span>
+    <div className='feedback-splash1'>
+
+    </div>
+    <span className='feedback-subtitle'>Our customers has amazing things to say about us</span>
+    <div className='feedbackCard-div'>
+    <Feedback
+    text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset....."
+    name="Riva Karki"
+    designation="Senior Developer"
+    img={Riva}
+    />
+    </div>
+    <div className='feedback-splash2'>
+
+</div>
+
+  
+</div>
+
+</section>
+<section className='subscribe'>
+  <div className='subscribe-div'>
+  <span className='subscribe-title'>Subscribe to get the Latest News</span>
+    <span className='subscribe-subtitle'>Don’t miss out on our latest news, updates, tips and special offers</span>
+    <div>
+      <form className="subscribe-form">
+      <input 
+    type="email" 
+    placeholder="Enter your email" 
+    className="email-input" 
+    required 
+  />
+  <button type="submit" className="submit-button">Subscribe</button>
+
+      </form>
+    </div>
+  </div>
+</section>
+
+{/* <section className='footer'>
+  
+
+</section> */}
 
 
 </div>

@@ -1,0 +1,64 @@
+
+.feedback-card{
+    width: 980px;
+    height: 524px;
+    background-color:#FFF9F1 ;
+    border: 1px solid #F9C06A6B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:27px;
+    
+}
+.comma-div{
+    height:112px;
+    width:103px;
+    position: relative;
+    left: -400px;
+    top:-55px;
+ 
+}
+
+.comma{
+    font-size: 290px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    color: #603809;
+}
+
+.feedback-text{
+    font-size: 18px;
+    font-family: Playfair Display;
+    font-weight: 600;
+    color: #707070;
+    text-align:center;
+    margin: 30px 93px 0 93px;
+}
+
+.feedback-name{
+    margin-top: 30px;
+    font-size: 32px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    color: #603809;
+    margin-top: 50px; 
+    margin-bottom: -24px;
+}
+
+.feedback-designation{
+    font-size: 20px;
+    font-family: Playfair Display;
+    font-weight: 400;
+    color: #707070;
+
+    
+}
+
+.feedback-img{
+    width: 112px;
+    height: 112px;
+    border-radius: 16px;
+    margin-bottom: -64px;
+    border: 2px solid #F9C06A6B;
+}
